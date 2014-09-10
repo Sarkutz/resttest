@@ -17,9 +17,11 @@ Customization:
 
 .. default-role:: code
 .. role:: custom
+.. role:: inherit(emphasis)
 
 - `single backtics (after changing default role to code)`
 - :custom:`custom role`
+- :inherit:`inheriting role`
 
 Errors:
 
