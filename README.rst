@@ -9,7 +9,7 @@ Roles
 Default roles:
 
 - `single backticks (default role)`
-- ``double backticks (alias for literal role)`
+- ``double backticks (alias for literal role)``
 - :code:`code role`
 
 Customization:
