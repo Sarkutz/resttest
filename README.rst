@@ -17,7 +17,7 @@ Customization:
 .. default-role:: code
 .. role:: custom
 
-- `single backtics (after changeing default role to code)`
+- `single backtics (after changing default role to code)`
 - :custom:`custom role`
 
 Errors:
