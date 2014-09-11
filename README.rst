@@ -9,9 +9,13 @@ Roles
 Default roles:
 
 - :code:`code role`
-- :literal:`literal role`
-- `single backticks (by default alias for title-reference role)`
-- ``double backticks (alias for literal role)``
+- :literal:`literal`
+- :emphasis:`emphasis`
+- :strong:`strong`
+- `single backticks (by default alias for title-reference)`
+- ``literal using duoble backticks``
+- *emphasis using asterisks*
+- **strong using double asterisks**
 
 Customization:
 
@@ -19,9 +23,9 @@ Customization:
 .. role:: custom
 .. role:: inherit(emphasis)
 
-- `single backtics (after changing default role to code)`
 - :custom:`custom role`
 - :inherit:`inheriting role`
+- `single backtics (after changing default role to code)`
 
 Errors:
 
