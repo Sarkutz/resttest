@@ -93,3 +93,9 @@ Links
 .. _target: http://example.com
 .. _target with spaces: http://example.com
 __ http://example.com
+
+Escaping
+========
+
+- \http://example.com
+- `\http://example.com`
