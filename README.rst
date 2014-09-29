@@ -6,18 +6,18 @@ Testing reStructuredText support on GitHub \*.rst files
 Default roles
 -------------
 
-==================================  =============  ===============  =========
-         Normal text                One backslash  Two backslashes   Comment
-==================================  =============  ===============  =========
-:code:`code role`                   c:\temp\dir    c:\\temp\\dir
-:literal:`literal`                  c:\temp\dir    c:\\temp\\dir
-:emphasis:`emphasis`                c:\temp\dir    c:\\temp\\dir
-:strong:`strong`                    c:\temp\dir    c:\\temp\\dir
-`single backticks                   c:\temp\dir    c:\\temp\\dir    By default alias for title-reference
-``literal using duoble backticks``  c:\temp\dir    c:\\temp\\dir
-*emphasis using asterisks*          c:\temp\dir    c:\\temp\\dir
-**strong using double asterisks**   c:\temp\dir    c:\\temp\\dir
-==================================  =============  ===============  =========
+==================================  =======================  =========================  ===========
+            Normal text                  One backslash             Two backslashes        Comment
+==================================  =======================  =========================  ===========
+:code:`code role`                   :code:`c:\temp\dir`      :code:`c:\\temp\\dir`
+:literal:`literal`                  :literal:`c:\temp\dir`   :literal:`c:\\temp\\dir`
+:emphasis:`emphasis`                :emphasis:`c:\temp\dir`  :emphasis:`c:\\temp\\dir`
+:strong:`strong`                    :strong:`c:\temp\dir`    :strong:`c:\\temp\\dir`
+`single backticks                   `c:\temp\dir`            `c:\\temp\\dir`            By default alias for title-reference
+``literal using duoble backticks``  ``c:\temp\dir``          ``c:\\temp\\dir``          Standard alias.
+*emphasis using asterisks*          *c:\temp\dir*            *c:\\temp\\dir*            Standard alias.
+**strong using double asterisks**   **c:\temp\dir**          **c:\\temp\\dir**          Standard alias.
+==================================  =======================  =========================  ===========
 
 Customized roles
 ----------------
@@ -26,13 +26,13 @@ Customized roles
 .. role:: custom
 .. role:: inherit(emphasis)
 
-==================================  =============  ===============  =========
-         Normal text                One backslash  Two backslashes   Comment
-==================================  =============  ===============  =========
-:custom:`custom role`               c:\temp\dir    c:\\temp\\dir
-:inherit:`inheriting role`          c:\temp\dir    c:\\temp\\dir
-`single backtics`                   c:\temp\dir    c:\\temp\\dir    Default role changd to code.
-==================================  =============  ===============  =========
+==========================  ======================  ========================  ===========
+        Normal text              One backslash           Two backslashes        Comment
+==========================  ======================  ========================  ===========
+:custom:`custom role`       :custom:`c:\temp\dir`   :custom:`c:\\temp\\dir`
+:inherit:`inheriting role`  :inherit:`c:\temp\dir`  :inherit:`c:\\temp\\dir`
+`single backtics`           `c:\temp\dir`           `c:\\temp\\dir`           Default role changed to code.
+==========================  ======================  ========================  ===========
 
 Non-existing roles
 ------------------
