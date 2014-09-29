@@ -13,7 +13,7 @@ Default roles
 :literal:`literal`                  :literal:`c:\temp\dir`   :literal:`c:\\temp\\dir`
 :emphasis:`emphasis`                :emphasis:`c:\temp\dir`  :emphasis:`c:\\temp\\dir`
 :strong:`strong`                    :strong:`c:\temp\dir`    :strong:`c:\\temp\\dir`
-`single backticks                   `c:\temp\dir`            `c:\\temp\\dir`            By default alias for title-reference
+`single backticks`                  `c:\temp\dir`            `c:\\temp\\dir`            By default alias for title-reference
 ``literal using duoble backticks``  ``c:\temp\dir``          ``c:\\temp\\dir``          Standard alias.
 *emphasis using asterisks*          *c:\temp\dir*            *c:\\temp\\dir*            Standard alias.
 **strong using double asterisks**   **c:\temp\dir**          **c:\\temp\\dir**          Standard alias.
