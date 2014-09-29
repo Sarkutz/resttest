@@ -2,6 +2,10 @@
   resttest
 ============
 
+.. contents::
+   :depth: 2
+   :local:
+
 Roles
 =====
 
@@ -70,3 +74,18 @@ Ordered wit indentation:
   1. First item
   2. Second
   3. Third
+
+Links
+=====
+
+
+- Explicit target_
+- `Target with spaces`_
+- Links_ is implicit target
+- Anonymous__ link
+- `Embedded URI <http://example.com>`__
+- `Embedded alias <target_>`__
+
+.. target: http://example.com
+.. target with spaces: http://example.com
+__ http://example.com
