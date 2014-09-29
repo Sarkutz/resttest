@@ -1,5 +1,9 @@
-resttest
-========
+============
+  resttest
+============
+
+Roles
+=====
 
 Testing reStructuredText support on GitHub \*.rst files
 
@@ -38,3 +42,31 @@ Non-existing roles
 ------------------
 
 - :nonex:`non-existing role`
+
+Lists
+=====
+
+Unordered without indentation:
+
+- First item
+- Second
+- Third
+
+Unordered wit indentation:
+
+  - First item
+  - Second
+  - Third
+
+
+Ordered without indentation:
+
+1. First item
+2. Second
+3. Third
+
+Ordered wit indentation:
+
+  1. First item
+  2. Second
+  3. Third
