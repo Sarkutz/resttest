@@ -1,6 +1,10 @@
-============
-  resttest
-============
+================================
+  GitHub reStructuredText Test
+================================
+
+This document tests various `reStructeredText <http://docutils.sourceforge.net/rst.html>`__
+features when rendered on GitHub. The motivation is to test what kind of styles GitHub uses
+and how different features actually work here. 
 
 .. contents::
    :depth: 2
@@ -86,6 +90,6 @@ Links
 - `Embedded URI <http://example.com>`__
 - `Embedded alias <target_>`__
 
-.. target: http://example.com
-.. target with spaces: http://example.com
+.. _target: http://example.com
+.. _target with spaces: http://example.com
 __ http://example.com
