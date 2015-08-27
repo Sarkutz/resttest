@@ -30,3 +30,26 @@ Customization:
 Errors:
 
 - :nonex:`non-existing role`
+
+Tables
+------
+
+List-table
+~~~~~~~~~~
+
+.. list-table:: A title
+    :widths: 1, 2, 2, 5 
+    :header-rows: 1
+
+    * - ID
+      - Type
+      - Priority
+      - Summary
+    * - #42
+      - Bug
+      - Critical
+      - Just testing here, nothing more
+    * - #1
+      - Enhancement
+      - Low
+      - Testing, testing, 1 2 3
