@@ -2,9 +2,10 @@
   GitHub reStructuredText Test
 ================================
 
-This document tests various `reStructeredText <http://docutils.sourceforge.net/rst.html>`__
-features when rendered on GitHub. The motivation is to test what kind of styles GitHub uses
-and how different features actually work here. 
+This document tests various `reStructeredText
+<http://docutils.sourceforge.net/rst.html>`__ features when rendered
+on GitHub. The motivation is to test what kind of styles GitHub uses
+and how different features actually work here.
 
 .. contents::
    :depth: 2
@@ -60,7 +61,7 @@ Unordered without indentation:
 - Second
 - Third
 
-Unordered wit indentation:
+Unordered with indentation:
 
   - First item
   - Second
@@ -73,7 +74,7 @@ Ordered without indentation:
 2. Second
 3. Third
 
-Ordered wit indentation:
+Ordered with indentation:
 
   1. First item
   2. Second
@@ -99,3 +100,26 @@ Escaping
 
 - \http://example.com
 - `\http://example.com`
+
+Tables
+======
+
+List-table
+----------
+
+.. list-table:: A title
+    :widths: 1, 2, 2, 5
+    :header-rows: 1
+
+    * - ID
+      - Type
+      - Priority
+      - Summary
+    * - #42
+      - Bug
+      - Critical
+      - Just testing here, nothing more
+    * - #1
+      - Enhancement
+      - Low
+      - Testing, testing, 1 2 3
