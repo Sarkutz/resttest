@@ -111,7 +111,7 @@ With title and widths
 ~~~~~~~~~~~~~~~~~~~~~
 
 .. list-table:: A title
-    :widths: 1, 2, 2, 5
+    :widths: 1, 2, 2, 10
     :header-rows: 1
 
     * - ID
