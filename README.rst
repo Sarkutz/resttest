@@ -107,8 +107,30 @@ Tables
 List-table
 ----------
 
+With title and widths
+~~~~~~~~~~~~~~~~~~~~~
+
 .. list-table:: A title
     :widths: 1, 2, 2, 5
+    :header-rows: 1
+
+    * - ID
+      - Type
+      - Priority
+      - Summary
+    * - #42
+      - Bug
+      - Critical
+      - Just testing here, nothing more
+    * - #1
+      - Enhancement
+      - Low
+      - Testing, testing, 1 2 3
+
+Without title and widths
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. list-table::
     :header-rows: 1
 
     * - ID
