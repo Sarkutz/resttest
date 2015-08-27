@@ -107,10 +107,9 @@ Tables
 List-table
 ----------
 
-With title and widths
-~~~~~~~~~~~~~~~~~~~~~
+With title and widths:
 
-.. list-table:: A title
+.. list-table:: A title is pretty useless
     :widths: 1, 2, 2, 10
     :header-rows: 1
 
@@ -125,10 +124,9 @@ With title and widths
     * - #1
       - Enhancement
       - Low
-      - Testing, testing, 1 2 3
+      - Testing, testing, 1 2 3. With very long summary. With very long summary. With very long summary.
 
-Without title and widths
-~~~~~~~~~~~~~~~~~~~~~~~~
+Without title and widths:
 
 .. list-table::
     :header-rows: 1
@@ -144,4 +142,4 @@ Without title and widths
     * - #1
       - Enhancement
       - Low
-      - Testing, testing, 1 2 3
+      - Testing, testing, 1 2 3. With very long summary. With very long summary. With very long summary.
