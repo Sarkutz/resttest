@@ -143,3 +143,21 @@ Without title and widths:
       - Enhancement
       - Low
       - Testing, testing, 1 2 3. With very long summary. With very long summary. With very long summary.
+
+Images
+======
+
+Image
+-----
+
+.. image:: https://duckduckgo.com/assets/logo_header.v107.lg.svg
+
+Figure
+------
+
+.. figure:: https://duckduckgo.com/assets/logo_header.v107.lg.svg
+
+   Caption: The DuckDuckGo Logo
+
+   Legend
+
