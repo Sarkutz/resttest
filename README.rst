@@ -155,7 +155,7 @@ Image
 Figure
 ------
 
-.. figure:: https://duckduckgo.com/assets/logo_header.v107.lg.svg
+.. figure:: logo_header.v107.lg.svg
 
    Caption: The DuckDuckGo Logo
 
